@@ -2,7 +2,7 @@
 
 ## Comportamento escolhido
 
-[Exemplo: cobrar taxa inicial para distancia até 3 km.]
+[Cobrar taxa inicial para distancia até 3 km.]
 
 ## Red
 
@@ -23,7 +23,7 @@
 
 ## Comportamento escolhido
 
-[Exemplo: Acima de 3 km, devem ser acrescentados R$ 2,00 por quilômetro excedente.]
+[Acima de 3 km, devem ser acrescentados R$ 2,00 por quilômetro excedente.]
 
 ## Red
 
@@ -45,7 +45,7 @@
 
 ## Comportamento escolhido
 
-[Exemplo: Pedidos a partir de R$ 100,00 possuem entrega gratuita.]
+[Pedidos a partir de R$ 100,00 possuem entrega gratuita.]
 
 ## Red
 
