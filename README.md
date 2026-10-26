@@ -15,3 +15,4 @@ Repositório da equipe para as atividades da Unidade Curricular Qualidade de Sof
 ## Aplicação analisada
 
 https://local-eats-unisenac.vercel.app/
+# pbl-qualidade-software-2026-2
