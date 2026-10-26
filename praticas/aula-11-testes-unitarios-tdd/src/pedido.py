@@ -27,6 +27,20 @@ def calcular_total(itens: list[dict]) -> float:
 
     return total
 
+def calcular_taxa_entrega(distancia_km: float, total_pedido: float) -> float:
+
+    #distancia_km = 0
+    #total_pedido = 0
+
+    if total_pedido >= 100:
+        return 0
+
+    elif distancia_km <= 3:
+        return 5
+
+    excedente_km = distancia_km - 3
+    return 5 + (2 * excedente_km)
+
 
 # EXERCICIO:
 # Implemente com TDD a funcao descrita abaixo.

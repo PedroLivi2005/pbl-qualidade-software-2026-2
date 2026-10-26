@@ -2,20 +2,63 @@
 
 ## Comportamento escolhido
 
-[Exemplo: cobrar taxa inicial para distancia de 2 km.]
+[Exemplo: cobrar taxa inicial para distancia até 3 km.]
 
 ## Red
 
-**Teste criado:** [nome do teste]
+**Teste criado:** [test_taxa_ate_tres_quilometros]
 
-**Motivo da falha:** [o que ainda nao existia ou estava incorreto]
+**Motivo da falha:** [falta de retorno dos dados esperados]
 
 ## Green
 
-**Implementacao realizada:** [menor implementacao necessaria]
+**Implementacao realizada:** [implementação do 'return']
 
 ## Refactor
 
-**Melhoria realizada:** [melhoria estrutural ou informe que nao foi necessaria]
+**Melhoria realizada:** [Remoção de uma variavel de taxa e implementação de 'return']
 
-**Resultado final:** [situacao de toda a suite]
+**Resultado final:** [Teste aprovado]
+
+
+## Comportamento escolhido
+
+[Exemplo: Acima de 3 km, devem ser acrescentados R$ 2,00 por quilômetro excedente.]
+
+## Red
+
+**Teste criado:** [test_taxa_acima_de_tres_quilometros]
+
+**Motivo da falha:** [Calculo incorreto do valor excedente de taxa]
+
+## Green
+
+**Implementacao realizada:** [Cálculo correto do valor excedente]
+
+## Refactor
+
+**Melhoria realizada:** [Correção da lógica do cálculo do valor excedente]
+
+**Resultado final:** [Teste aprovado]
+
+
+
+## Comportamento escolhido
+
+[Exemplo: Pedidos a partir de R$ 100,00 possuem entrega gratuita.]
+
+## Red
+
+**Teste criado:** [test_entrega_gratuita_para_pedidos_altos]
+
+**Motivo da falha:** [Ordem dos 'if']
+
+## Green
+
+**Implementacao realizada:** [Troca dos condicionais if/elif]
+
+## Refactor
+
+**Melhoria realizada:** [Lógica da ordem condicional]
+
+**Resultado final:** [Teste aprovado]
